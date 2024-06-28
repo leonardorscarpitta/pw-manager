@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function LoginPage() {
   return (
-    <div className="flex items-center justify-center h-lvh">
+    <div className="flex items-center justify-center h-lvh bg-black">
       <form className="flex">
         <LoginCard title="Login">
           <Input type="email" placeholder="Seu Email" />
