@@ -8,7 +8,7 @@ interface LoginCardProps {
 export default function LoginCard({ title, children }: LoginCardProps ) {
   return (
     <div className="flex flex-col gap-y-6 bg-white font-bold text-black rounded-lg p-16">
-      <h1 className="text-center font-black">{title}</h1>
+      <h1 className="text-center font-black text-purple-500 uppercase">{title}</h1>
       {children}
     </div>
   )
